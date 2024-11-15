@@ -3,32 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* nav */
 .navbar-brand{
     width: 80px;
     height: 90px;}
 .nav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 .navbar-nav .nav-link.sale {
     color: #dc2626;
 }
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
-    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
-
-
-
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -43,7 +37,9 @@
 .nav-links a.sale {
     color: #dc2626;
 }
+/* nav end */
 
+/* hero start */
 .hero {
     position: relative;
     height: 600px;
@@ -76,7 +72,7 @@
     font-size: 3rem;
     font-weight: light;
 }
-
+/* hero end */
 .promo-banner {
     background: #1b2f1b;
     color: white;
@@ -84,7 +80,7 @@
     padding: 1rem;
     height: 4rem;
 }
-
+/* cooking section */
 .start-cooking {
     max-width: 1200px;
     margin: 4rem auto;
@@ -97,6 +93,7 @@
     margin-bottom: 3rem;
     color: #333;
 }
+/* cooking end */
 
 .product-grid {
     display: grid;
@@ -277,6 +274,7 @@ font-size: 1.9rem;
 .shop-now-btn:hover {
     background: #2c472c;
 }
+/* best seller end */
 
 /* Reviews Section */
 .reviews {
@@ -348,6 +346,7 @@ font-size: 1.9rem;
         height: 350px;
     }
 }
+/* review end */
 
 /* footer section */
 .footer {
