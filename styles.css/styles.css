@@ -6,16 +6,12 @@
 /* nav */
 .navbar-brand{
     width: 80px;
-    height: 90px;}
-.nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 90px;
 }
-.nav-link a:hover{
-color: orangered;
-text-decoration: underline;
+
+.nav-item a :hover{
+    text-decoration: underline;
+    color: orangered;
 }
 
 .navbar-nav .nav-link.sale {
@@ -27,6 +23,7 @@ text-decoration: underline;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav-links {
     display: flex;
@@ -63,7 +60,7 @@ text-decoration: underline;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.3);
+    
 }
 
 .hero-content {
@@ -73,9 +70,12 @@ text-decoration: underline;
     color: white;
 }
 
-.hero-content h1 {
-    font-size: 3rem;
-    font-weight: light;
+.hero h1 {
+    background-color: rgba(0, 0, 0, 0.867);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 /* hero end */
 .promo-banner {
@@ -279,9 +279,20 @@ font-size: 1.9rem;
 .shop-now-btn:hover {
     background: #2c472c;
 }
+@media (max-width: 968px) {
+    .best-sellers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 568px) {
+    .best-sellers-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* best seller end */
 
-/* Reviews Section */
 /* Reviews Section */
 .reviews {
     max-width: 1200px;
