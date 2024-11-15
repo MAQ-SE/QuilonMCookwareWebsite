@@ -13,6 +13,11 @@
     background: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+.nav-link a:hover{
+color: orangered;
+text-decoration: underline;
+}
+
 .navbar-nav .nav-link.sale {
     color: #dc2626;
 }
